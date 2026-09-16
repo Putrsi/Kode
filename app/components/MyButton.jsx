@@ -1,10 +1,10 @@
 import React from 'react';
-import { Pressable, Text } from 'react-native'
+import { Pressable, Text } from 'react-native';
 
 const MyButton = (props) => {
-  let bgColor = 'blue'
+  let bgColor = 'blue';
   if (props.variant === 'success') {
-    bgColor = 'green'
+    bgColor = 'green';
   }
   if (props.variant === 'danger') {
     bgColor = 'red';
